@@ -29,15 +29,15 @@
   max-height: 756px;
   background-image: url(images/logo_place_header.svg);
   display: flex;
-  position: fixed;
   background-color: #f2f2f2;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
 .logo {
   height: 32px;
   width: 228px;
-  border: 1px blue solid;
+  border: 1px red solid;
 }
 
 .logo__place_header {
@@ -49,23 +49,28 @@
 
 .header__title {
   border: 1px red solid;
-  width: 730;
-  -ms-flex-align: start;
+  width: 730px;
   left: 64px;
-  z-index: 1;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 64px;
+  z-index: 2;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
 }
 
 .header_subtitle {
   border: 1px red solid;
-  width: 388px;
+  max-width: 388px;
   position: absolute;
-  z-index: 1;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header_subtitle_link {
@@ -78,17 +83,24 @@ a {
   text-decoration: none;
 }
 
-.header_main_illustration {
-  border: 1px red solid;
+.header__main_illustration {
   position: absolute;
+  width: 765px;
+  height: 608px;
+  right: 0;
+  bottom: 0;
+  border: 1px red solid;
+  z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+.header__square_pic {
+  position: absolute;
   height: 568px;
   width: 568px;
-  border: 1px red solid;
-  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
