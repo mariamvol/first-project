@@ -4,11 +4,13 @@
 синий (ссылки, фигуры) #2f80ed
 черный (текст) #000000
  */
+ html {
+  scroll-behavior: smooth;
+}
 
  body, .page, .header, .content, .description, .digits, .feynman, .kaufman, .footer {
   margin: 0;
   padding: 0%;
-  border: 2px red solid;
 }
 
 .page {
@@ -20,7 +22,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  border: 2px green solid;
+  */border: 2px green solid;*/
 }
 
 .header {
@@ -31,13 +33,13 @@
   display: flex;
   background-color: #f2f2f2;
   position: relative;
-  /* выше установили ограничения для секции */
+  flex-wrap: wrap;
 }
 
 .logo {
   height: 32px;
   width: 228px;
-  border: 1px red solid;
+  /*border: 1px red solid;*/
 }
 
 .logo__place_header {
@@ -47,22 +49,32 @@
   z-index: 1;
 }
 
-.header__title {
-  border: 1px red solid;
-  width: 730px;
-  left: 64px;
+/*.header__content {
   display: flex;
   flex-direction: column;
+  justify-content: center; 
+  align-items: flex-start; 
+  max-width: 730px; 
+}*/
+
+.header__title {
+  max-width: 730px;
+  justify-content: center;
   align-self: center;
+  /*white-space: normal !important; /* Позволяет перенос строк 
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;*/
   margin-left: 64px;
   z-index: 2;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
+  /*border: 1px red solid;*/
 }
 
 .header_subtitle {
-  border: 1px red solid;
+  /*border: 1px red solid;*/
   max-width: 388px;
   position: absolute;
   left: 64px;
@@ -74,7 +86,6 @@
 }
 
 .header_subtitle_link {
-  border: 1px red solid;
   position: absolute;
   color: #2f80ed;
 }
@@ -83,13 +94,23 @@ a {
   text-decoration: none;
 }
 
+.header__subtitle_link_active:hover {
+  color: blue;
+  font-weight: bold;
+  
+}
+
+.header__subtitle_link_active:active {
+  color: purple;
+}
+
 .header__main_illustration {
   position: absolute;
   width: 765px;
   height: 608px;
   right: 0;
   bottom: 0;
-  border: 1px red solid;
+  /*border: 1px red solid;*/
   z-index: 1;
 }
 
@@ -103,10 +124,97 @@ a {
   z-index: 0;
 }
 
+.content {
+  border: 1px green solid;
+}
+
+.descriptionP {
+  border: 10px yellow solid;
+  width: 100%;
+  height: 100%;
+  flex-flow: row;
+  position: relative;
+}
+
+.two_columns {
+  border: 5px red  solid;
+  max-width: 80%;
+  margin: 100px 0 100px 0;
+  display: flex;
+  position: relative;
+  justify-self: center;
+  justify-content: space-between;
+}
+
+.two_columns__brief {
+  border: 1px blue dashed;
+  max-width: 175px;
+  max-height: 100%;
+  justify-self: start;
+}
+
+.two_columns__brief_title {
+  height: max-content;
+  color: #2f80ed;
+  font-size: 18px;
+  border: 1px blue solid;
+  margin-top: 0;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+.two_columns__main_text {
+  border: 1px blue solid;
+  max-width: 80%;
+  min-width: 784px;
+  max-height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.two_columns__main_text_paragraph_first {
+  border: 1px blue solid;
+  max-height: min-content;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 30px 0;
+  justify-content: flex-start;
+}
+
+.two_columns__main_text_paragraph_second {
+  border: 1px blue solid;
+  max-height: min-content;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.span_accent {
+  font-weight: 600;
+}
+
+.two_columns__main_text_paragraph_third {
+  border: 1px blue solid;
+  max-height: min-content;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.footer {
+  border: 1px red solid;
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
