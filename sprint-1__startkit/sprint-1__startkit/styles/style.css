@@ -1,3 +1,16 @@
+/*
+серый (фон) #1f1f1f 
+серый (фон) #f2f2f2
+синий (ссылки, фигуры) #2f80ed
+черный (текст) #000000
+ */
+
+ body, .page, .header, .content, .description, .digits, .feynman, .kaufman, .footer {
+  margin: 0;
+  padding: 0%;
+  border: 2px red solid;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -7,19 +20,75 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  border: 2px green solid;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-image: url(images/logo_place_header.svg);
+  display: flex;
+  position: fixed;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
+}
+
+.logo {
+  height: 32px;
+  width: 228px;
+  border: 1px blue solid;
+}
+
+.logo__place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__title {
+  border: 1px red solid;
+  width: 730;
+  -ms-flex-align: start;
+  left: 64px;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.header_subtitle {
+  border: 1px red solid;
+  width: 388px;
+  position: absolute;
+  z-index: 1;
+  left: 64px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header_subtitle_link {
+  border: 1px red solid;
+  position: absolute;
+  color: #2f80ed;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_main_illustration {
+  border: 1px red solid;
+  position: absolute;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  border: 1px red solid;
+  position: absolute;
 }
 
 /* и элемента с модификатором вида ключ-значение */
