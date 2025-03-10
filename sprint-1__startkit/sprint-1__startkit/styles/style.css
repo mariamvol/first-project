@@ -22,7 +22,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  */border: 2px green solid;*/
+  /*border: 2px green solid;*/
 }
 
 .header {
@@ -126,11 +126,12 @@ a {
 
 .content {
   border: 1px green solid;
+  position: relative;
 }
 
-.descriptionP {
+.description {
   border: 10px yellow solid;
-  width: 100%;
+  width: auto;
   height: 100%;
   flex-flow: row;
   position: relative;
@@ -164,27 +165,40 @@ a {
 }
 
 .two_columns__main_text {
-  border: 1px blue solid;
+  border: 3px blue dashed;
   max-width: 80%;
   min-width: 784px;
   max-height: 100%;
   display: flex;
-  flex-flow: column;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+  /*justify-content: space-between;*/
 }
 
 .two_columns__main_text_paragraph_first {
-  border: 1px blue solid;
+  border: 2px green solid;
+  display: block;
+  width: auto;
+  max-width: 100%;
   max-height: min-content;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 0 0 30px 0;
-  justify-content: flex-start;
+  margin: 0 0 0 0;
+}
+
+.two_columns__main_text_paragraph_text {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-self: stretch;
 }
 
 .two_columns__main_text_paragraph_second {
-  border: 1px blue solid;
+  border: 2px green solid;
+  display: block;
+  width: auto;
+  max-width: 100%;
   max-height: min-content;
   line-height: 34px;
   font-size: 24px;
@@ -196,12 +210,16 @@ a {
 }
 
 .two_columns__main_text_paragraph_third {
-  border: 1px blue solid;
+  border: 2px green solid;
+  display: block;
+  width: auto;
+  max-width: 100%;
   max-height: min-content;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-top: 30px;
+  padding: 0;
+  margin: 0 0 0 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
