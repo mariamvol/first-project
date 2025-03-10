@@ -8,6 +8,10 @@
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+}
+
  body, .page, .header, .content, .description, .digits, .feynman, .kaufman, .footer {
   margin: 0;
   padding: 0%;
@@ -125,12 +129,12 @@ a {
 }
 
 .content {
-  border: 1px green solid;
+  border: 2px green solid;
   position: relative;
 }
 
 .description {
-  border: 10px yellow solid;
+  /*border: 10px yellow solid;*/
   width: auto;
   height: 100%;
   flex-flow: row;
@@ -138,86 +142,92 @@ a {
 }
 
 .two_columns {
-  border: 5px red  solid;
-  max-width: 80%;
+  /*border: 5px red  solid;*/
+  width: 80%;
+  min-width: 784px;
+  min-height: min-content;
   margin: 100px 0 100px 0;
   display: flex;
-  position: relative;
   justify-self: center;
   justify-content: space-between;
+  position: relative;
+  padding: 0;
 }
 
 .two_columns__brief {
-  border: 1px blue dashed;
+  /*border: 1px blue dashed;*/
   max-width: 175px;
+  min-width: min-content;
   max-height: 100%;
-  justify-self: start;
+  padding: 0;
+  margin: 0;
+  /*flex-shrink: 0;*/
 }
 
 .two_columns__brief_title {
   height: max-content;
   color: #2f80ed;
   font-size: 18px;
-  border: 1px blue solid;
-  margin-top: 0;
+  /*border: 1px blue solid;*/
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
   font-weight: normal;
 }
 
 .two_columns__main_text {
-  border: 3px blue dashed;
-  max-width: 80%;
+  /*border: 3px blue dashed;*/
+  width: 80%;
   min-width: 784px;
   max-height: 100%;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  /*justify-content: space-between;*/
+  /*justify-content: space-between;
+  margin: 0;
+  padding: 0;*/
 }
 
 .two_columns__main_text_paragraph_first {
-  border: 2px green solid;
+  /*border: 2px green solid;*/
   display: block;
   width: auto;
   max-width: 100%;
   max-height: min-content;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
   margin: 0 0 0 0;
+  flex-wrap: wrap;
 }
 
 .two_columns__main_text_paragraph_text {
   width: 100%;
   margin: 0;
   padding: 0;
-  align-self: stretch;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  /*border: 1px black solid;*/
 }
 
 .two_columns__main_text_paragraph_second {
-  border: 2px green solid;
+  /*border: 2px green solid;*/
   display: block;
   width: auto;
   max-width: 100%;
   max-height: min-content;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 .span_accent {
   font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
 .two_columns__main_text_paragraph_third {
-  border: 2px green solid;
+  /*border: 2px green solid;*/
   display: block;
   width: auto;
   max-width: 100%;
   max-height: min-content;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
   padding: 0;
   margin: 0 0 0 0;
 }
