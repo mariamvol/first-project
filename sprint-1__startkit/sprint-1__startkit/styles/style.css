@@ -140,6 +140,8 @@ a {
   flex-flow: row;
   position: relative;
   padding-top: 100px;
+  background-color: white;
+  z-index: 1;
 }
 
 .two-columns {
