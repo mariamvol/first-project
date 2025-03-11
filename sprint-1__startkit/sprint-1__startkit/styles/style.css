@@ -129,7 +129,7 @@ a {
 }
 
 .content {
-  border: 4px green solid;
+  /*border: 4px green solid;*/
   position: relative;
 }
 
@@ -139,6 +139,7 @@ a {
   height: 100%;
   flex-flow: row;
   position: relative;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -146,7 +147,7 @@ a {
   width: 80%;
   min-width: 784px;
   min-height: min-content;
-  margin: 100px 0 100px 0;
+  margin: 0 0 100px 0;
   display: flex;
   justify-self: center;
   justify-content: space-between;
