@@ -44,7 +44,7 @@
 .logo {
   height: 32px;
   width: 228px;
-  border: 1px red solid;
+  /*border: 1px red solid;*/
 }
 
 .header__logo-place {
@@ -90,7 +90,7 @@
   z-index: 2;
 }
 
-.header__subtitle-link {
+.link {
   position: absolute;
   color: #2f80ed;
 }
@@ -99,13 +99,13 @@ a {
   text-decoration: none;
 }
 
-.header__subtitle-link_active:hover {
+.link_active:hover {
   color: blue;
   font-weight: bold;
   
 }
 
-.header__subtitle-link_active:active {
+.link_active:active {
   color: purple;
 }
 
@@ -340,6 +340,75 @@ a {
 
 .table-cell__text-bank {
   margin: 0 !important;
+}
+
+.feynman {
+  /*border: 3px green solid;*/
+  height: 890px;
+  width: 100%;
+  background-color: #f2f2f2;
+
+  display: flex;
+  position: relative;
+  margin: 0;
+
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+.feynman-text {
+  /*border: 2px blue dashed;*/
+  max-height: max-content;
+  width: 648px;
+  display: flex;
+  margin: 100px 0 0 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 70px;
+  z-index: 2;
+}
+
+.feynman-title{
+  /*border: 2px green solid;*/
+  height: max-content;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.feynman-subtitle{
+  /*border: 1px blue solid;*/
+  width: max-content;
+  height: max-content;
+  margin: 0;
+
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman-link {
+  /*border: 1px blue solid;*/
+  align-self: center;
+  right: 40px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.feynman__main-illustration {
+  /*border: 1px blue solid;*/
+  position: absolute;
+  max-width: 867px;
+  max-height: 637px;
+  left: 0;
+  bottom: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
