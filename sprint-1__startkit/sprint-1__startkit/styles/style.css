@@ -1,5 +1,5 @@
 /*
-серый (фон) #1f1f1f 
+черный (фон) #1f1f1f 
 серый (фон) #f2f2f2
 синий (ссылки, фигуры) #2f80ed
 черный (текст) #000000
@@ -15,6 +15,7 @@
  body, .page, .header, .content, .description, .digits, .feynman, .kaufman, .footer {
   margin: 0;
   padding: 0%;
+  overflow-x: hidden;
 }
 
 .page {
@@ -248,14 +249,17 @@ a {
 .table {
   /*border: 2px red solid;*/
   max-width: 1100px;
-  margin: 100px auto;
   border-collapse: collapse;
 
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  
   align-content: flex-start;
   justify-content: center;
+}
+
+.table__set_theme_white {
+  margin: 100px auto;
 }
 
 .caption {
@@ -298,29 +302,35 @@ a {
   margin-top: 0;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  
 }
 
 .table-row {
   /*border: 1px green dashed;*/
   display: flex;
-  flex-wrap: wrap;
+  
   align-content: flex-start;
   justify-content: space-between;
-  margin-top: 60px;
 
+}
+
+.table__row_theme_white {
+  margin-top: 60px;
   gap: 33.3333333px;
 }
 
 .table-cell {
   /*border: 1px blue solid;*/
-  width: 250px;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
   flex-direction: column;
   column-gap: 20px;
   padding: 0;
+}
+
+.table__cell_theme_white {
+  width: 250px;
 }
 
 .table-cell__heading {
@@ -411,13 +421,42 @@ a {
   bottom: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.kaufman {
+  /*border: 4px orange solid;*/
+  min-width: 877px;
+  height: 877px;
+  background-color: #1f1f1f ;
+  overflow: hidden !important;
+  overflow-x: hidden;
+  z-index: -1;
+}
+
+.kaufman__triangle-pic {
+  z-index: 0;
+  position: absolute;
+  height: 877px;
+  width: 877px;
+  right: -210px;
+
+}
+
+.table__set_theme_dark {
+  color: white;
+  margin: 90px auto;
+  z-index: 1;
+}
+
 .table__cell_theme_dark {
+  color: white !important;
   width: 200px;
-  color: blue;
-  margin-right: 0;
+  z-index: 1;
+  /*border: 1px white solid;*/
+}
+
+.table__row_theme_dark {
   margin-top: 80px;
 }
+
 
 .footer {
   border: 1px red solid;
