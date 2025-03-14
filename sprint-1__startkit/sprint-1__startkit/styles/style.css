@@ -258,7 +258,7 @@ a {
   justify-content: center;
 }
 
-.table__set_theme_white {
+.table_set-theme-white {
   margin: 100px auto;
 }
 
@@ -314,7 +314,7 @@ a {
 
 }
 
-.table__row_theme_white {
+.table-row_theme-white {
   margin-top: 60px;
   gap: 33.3333333px;
 }
@@ -329,7 +329,7 @@ a {
   padding: 0;
 }
 
-.table__cell_theme_white {
+.table-cell_theme-white {
   width: 250px;
 }
 
@@ -423,12 +423,12 @@ a {
 
 .kaufman {
   /*border: 4px orange solid;*/
-  min-width: 877px;
-  height: 877px;
+ 
   background-color: #1f1f1f ;
   overflow: hidden !important;
   overflow-x: hidden;
   z-index: -1;
+  margin: 0;
 }
 
 .kaufman__triangle-pic {
@@ -440,23 +440,22 @@ a {
 
 }
 
-.table__set_theme_dark {
+.table_set-theme-dark {
   color: white;
   margin: 90px auto;
   z-index: 1;
 }
 
-.table__cell_theme_dark {
+.table-cell_theme-dark {
   color: white !important;
   width: 200px;
   z-index: 1;
   /*border: 1px white solid;*/
 }
 
-.table__row_theme_dark {
+.table-row_theme-dark {
   margin-top: 80px;
 }
-
 
 .footer {
   border: 1px red solid;
