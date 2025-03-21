@@ -1,7 +1,7 @@
-@import url(./_cell/table-cell.css);
-@import url(./_row/table-row.css);
-@import url(./_tbody/tbody.css);
-@import url(./_theme/table-set-theme-white.css);
+@import url(./__cell/table-cell.css);
+@import url(./__row/table-row.css);
+@import url(./__tbody/tbody.css);
+@import url(./__theme/table_set-theme-white.css);
 
 .table {
     /*border: 2px red solid;*/

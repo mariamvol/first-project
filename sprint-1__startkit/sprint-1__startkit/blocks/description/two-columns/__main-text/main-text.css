@@ -1,6 +1,6 @@
 @import url(./__paragraph-text/main-text__paragraph-text.css);
-@import url(./__paragraph-third/main-text__paragraph-first.css);
-@import url(./__paragraph-third/main-text__paragraph-second.css);
+@import url(./__paragraph-first/main-text__paragraph-first.css);
+@import url(./__paragraph-second/main-text__paragraph-second.css);
 @import url(./__paragraph-third/main-text__paragraph-third.css);
 
 .main-text {

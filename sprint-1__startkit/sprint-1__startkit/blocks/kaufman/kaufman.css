@@ -1,7 +1,5 @@
-@import url(./_theme/table_set/table_set-theme-dark.css);
-@import url(./_theme/table-cell/table-cell_theme-dark.css);
-@import url(./_theme/table-row/table-row_theme-dark.css);
-@import url(./_triangle-pic/kaufman__triangle-pic.css);
+@import url(./__theme/theme.css);
+@import url(./__triangle-pic/kaufman__triangle-pic.css);
 
 .kaufman {
     /*border: 4px orange solid;*/

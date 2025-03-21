@@ -1,7 +1,7 @@
-@import url(./_heading/table-cell_heading.css);
-@import url(./_text/table-cell_text.css);
-@import url(./_text-bank/table-cell_text-bank.css);
-@import url(./_theme/table-cell_theme-white.css);
+@import url(./__heading/table-cell__heading.css);
+@import url(./__text/table-cell__text.css);
+@import url(./__text-bank/table-cell__text-bank.css);
+@import url(./__theme/table-cell_theme-white.css);
 
 .table-cell {
     /*border: 1px blue solid;*/

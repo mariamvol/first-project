@@ -1,5 +1,5 @@
-@import url(./footer-columns.css);
-@import url(./_css-right/footer_css-right.css);
+@import url(./__columns/footer-columns.css);
+@import url(./__css-right/footer__css-right.css);
 
 .footer {
     /*border: 1px red solid;*/

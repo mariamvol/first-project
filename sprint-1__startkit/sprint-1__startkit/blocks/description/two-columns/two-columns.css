@@ -1,5 +1,6 @@
-@import url(./_main-text/main-text.css);
-@import url(./_main-text/two-columns__brief.css);
+@import url(./__main-text/main-text.css);
+@import url(./__brief-title/two-columns__brief-title.css);
+@import url(./__brief/two-columns__brief.css);
 
 .two-columns {
     /*border: 5px red  solid;*/
