@@ -1,0 +1,9 @@
+.main-text__paragraph-first {
+    /*border: 2px green solid;*/
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: min-content;
+    margin: 0 0 0 0;
+    flex-wrap: wrap;
+  }

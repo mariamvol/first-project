@@ -1,0 +1,9 @@
+@import url(./__icon/footer-columns__social-icon.css);
+
+
+.footer-columns__content-social a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap; 
+  }

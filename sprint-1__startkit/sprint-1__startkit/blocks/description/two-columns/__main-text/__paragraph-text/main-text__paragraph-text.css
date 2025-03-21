@@ -1,0 +1,10 @@
+.main-text__paragraph-text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    /*border: 1px black solid;*/
+  }
+  

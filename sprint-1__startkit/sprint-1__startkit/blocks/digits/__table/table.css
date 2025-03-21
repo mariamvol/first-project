@@ -1,0 +1,16 @@
+@import url(./_cell/table-cell.css);
+@import url(./_row/table-row.css);
+@import url(./_tbody/tbody.css);
+@import url(./_theme/table-set-theme-white.css);
+
+.table {
+    /*border: 2px red solid;*/
+    max-width: 1100px;
+    border-collapse: collapse;
+  
+    display: flex;
+    flex-direction: column;
+    
+    align-content: flex-start;
+    justify-content: center;
+  }

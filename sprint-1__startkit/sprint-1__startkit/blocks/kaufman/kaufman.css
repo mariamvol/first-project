@@ -1,0 +1,15 @@
+@import url(./_theme/table_set/table_set-theme-dark.css);
+@import url(./_theme/table-cell/table-cell_theme-dark.css);
+@import url(./_theme/table-row/table-row_theme-dark.css);
+@import url(./_triangle-pic/kaufman__triangle-pic.css);
+
+.kaufman {
+    /*border: 4px orange solid;*/
+    background-color: #1f1f1f ;
+    overflow: hidden !important;
+    overflow-x: hidden;
+    z-index: -1;
+    margin: 0;
+    position: relative;
+  }
+  

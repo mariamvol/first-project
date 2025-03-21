@@ -1,0 +1,10 @@
+.caption-subtitle {
+    /*border: 1px blue solid;*/
+    width: 60%;
+    justify-self: center;
+    margin: 0 !important;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 0;
+  }

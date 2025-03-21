@@ -1,0 +1,13 @@
+.feynman-text {
+    /*border: 2px blue dashed;*/
+    max-height: max-content;
+    width: 648px;
+    display: flex;
+    margin: 100px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 70px;
+    z-index: 2;
+  }

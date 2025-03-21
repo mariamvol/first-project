@@ -1,0 +1,12 @@
+.logo {
+    height: 32px;
+    width: 228px;
+    /*border: 1px red solid;*/
+  }
+  
+  .header__logo-place {
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    z-index: 1;
+  }

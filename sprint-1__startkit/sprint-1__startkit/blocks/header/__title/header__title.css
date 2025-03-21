@@ -1,0 +1,15 @@
+.header__title {
+    max-width: 730px;
+    justify-content: center;
+    align-self: center;
+    /*white-space: normal !important; /* Позволяет перенос строк 
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;*/
+    margin-left: 64px;
+    z-index: 2;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: 600;
+    /*border: 1px red solid;*/
+  }

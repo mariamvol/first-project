@@ -1,0 +1,9 @@
+.feynman-title {
+    /*border: 2px green solid;*/
+    height: max-content;
+    margin: 0;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: 600;
+    z-index: 1;
+  }

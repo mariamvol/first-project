@@ -1,0 +1,20 @@
+.two-columns__brief {
+    /*border: 1px blue dashed;*/
+    max-width: 175px;
+    min-width: min-content;
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+    /*flex-shrink: 0;*/
+  }
+
+.two-columns__brief-title {
+    height: max-content;
+    color: #2f80ed;
+    font-size: 18px;
+    /*border: 1px blue solid;*/
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    font-weight: normal;
+  }

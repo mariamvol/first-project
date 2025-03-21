@@ -1,0 +1,12 @@
+@import url(./__caption/caption.css);
+@import url(./__table/table.css);
+
+.digits {
+    /*border: 5px orangered solid;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }

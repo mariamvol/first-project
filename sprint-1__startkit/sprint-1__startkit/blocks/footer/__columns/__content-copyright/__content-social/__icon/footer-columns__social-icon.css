@@ -1,0 +1,9 @@
+.footer-columns__social-icon {
+    /*border: 1px white solid;*/
+    width: 16px;
+    height: 16px;
+  }
+  
+  .footer-columns__social-icon:hover {
+    filter: contrast(0.001);
+  }
