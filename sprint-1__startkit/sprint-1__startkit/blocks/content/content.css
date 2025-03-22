@@ -1,4 +1,6 @@
 .content {
     /*border: 4px green solid;*/
     position: relative;
+    margin: 0;
+    padding: 0;
   }
