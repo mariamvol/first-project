@@ -3,14 +3,3 @@
     color: #2f80ed;
     margin-left: 5px;
   }
-
-.link_active:hover {
-    color: blue;
-    font-weight: bold;
-    transform: scale(1.05);
-    transition: transform 0.4s ease;
- }
-  
-.link_active:active {
-    color: purple;
-  }

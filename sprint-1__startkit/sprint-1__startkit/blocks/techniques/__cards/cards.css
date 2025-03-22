@@ -1,0 +1,9 @@
+@import url(./__item/cards__item.css);
+
+.cards {
+    /*border: 3px blue dashed;*/
+    max-width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10.665%;
+}

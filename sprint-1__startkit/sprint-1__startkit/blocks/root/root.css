@@ -34,5 +34,15 @@
     text-decoration: none;
   }
   
+  a:hover {
+    opacity: 0.6;
+ }
+  
+  a:active {
+    opacity: 0.5;
+    transform: scale(0.99);
+    transition: transform 0.03s linear;
+  }
+  
   
   
