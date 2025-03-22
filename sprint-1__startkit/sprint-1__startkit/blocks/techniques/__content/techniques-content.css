@@ -1,0 +1,14 @@
+@import url(./__cards/cards.css);
+
+.techniques-content {
+    /*border: 5px green solid;*/
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0 auto;
+    padding-top: 100px !important;
+}

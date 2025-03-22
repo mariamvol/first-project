@@ -15,5 +15,6 @@
       background-color: #f2f2f2;
       position: relative;
       flex-wrap: wrap;
+      overflow: hidden;
     }
 

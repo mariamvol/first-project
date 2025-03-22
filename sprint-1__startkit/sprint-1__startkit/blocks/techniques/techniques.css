@@ -1,0 +1,10 @@
+@import url(./__content/techniques-content.css);
+
+.techniques {
+    /*border: 3px red solid;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
