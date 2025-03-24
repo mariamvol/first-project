@@ -1,0 +1,10 @@
+@import url(./__iframe/video__iframes-iframe.css);
+
+.video__iframes {
+    /*border: 1px green solid;*/
+    margin: 60px auto -50 auto !important;
+    display: flex;
+    column-gap: 20px;
+    
+    
+}
