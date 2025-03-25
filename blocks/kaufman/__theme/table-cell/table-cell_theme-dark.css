@@ -1,0 +1,6 @@
+.table-cell_theme-dark {
+    color: white !important;
+    width: 200px;
+    z-index: 1;
+    /*border: 1px white solid;*/
+  }

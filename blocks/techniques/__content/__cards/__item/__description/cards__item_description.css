@@ -1,0 +1,15 @@
+.cards__item_description {
+    /*border: 1px blue solid;*/
+    height: 100%; /* растягивается по высоте родителя */
+    display: flex;
+    justify-content: center; /* по центру по горизонтали */
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-self: baseline;
+
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}

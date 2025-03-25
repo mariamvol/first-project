@@ -1,0 +1,7 @@
+.tbody {
+    /*border: 3px green dashed;*/
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }

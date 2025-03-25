@@ -1,0 +1,48 @@
+/*
+черный (фон) #1f1f1f 
+серый (фон) #f2f2f2
+синий (ссылки, фигуры) #2f80ed
+черный (текст) #000000
+ */
+ html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+   body, .page, .header, .content, .description, .digits, .feynman, .kaufman, .footer {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /*border: 5px green solid;*/
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    opacity: 0.6;
+ }
+  
+  a:active {
+    opacity: 0.5;
+    transform: scale(0.99);
+    transition: transform 0.03s linear;
+  }
+  
+  
+  

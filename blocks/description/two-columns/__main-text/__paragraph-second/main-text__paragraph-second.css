@@ -1,0 +1,9 @@
+@import url(./__span-accent/span-accent.css);
+
+.main-text__paragraph-second {
+    /*border: 2px green solid;*/
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: min-content;
+  }

@@ -1,0 +1,14 @@
+@import url(./__heading/table-cell__heading.css);
+@import url(./__text/table-cell__text.css);
+@import url(./__text-bank/table-cell__text-bank.css);
+@import url(./__theme/table-cell_theme-white.css);
+
+.table-cell {
+    /*border: 1px blue solid;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    column-gap: 20px;
+    padding: 0;
+  }

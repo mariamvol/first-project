@@ -1,0 +1,9 @@
+.resources__logo-zone-link {
+    /*border: 1px red solid;*/
+    width: 270px;
+    height: 38px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,16 @@
+@import url(./__main-text/main-text.css);
+@import url(./__brief-title/two-columns__brief-title.css);
+@import url(./__brief/two-columns__brief.css);
+
+.two-columns {
+    /*border: 5px red  solid;*/
+    width: 80%;
+    min-width: 784px;
+    min-height: min-content;
+    margin: 0 0 100px 0;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0;
+  }

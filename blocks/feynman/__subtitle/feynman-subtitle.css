@@ -1,0 +1,10 @@
+.feynman-subtitle {
+    /*border: 1px blue solid;*/
+    width: max-content;
+    height: max-content;
+    margin: 0;
+  
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+  }

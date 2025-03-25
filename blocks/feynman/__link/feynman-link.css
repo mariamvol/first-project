@@ -1,0 +1,9 @@
+.feynman-link {
+    /*border: 1px blue solid;*/
+    align-self: center;
+    right: 40px;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    color: #2f80ed;
+  }

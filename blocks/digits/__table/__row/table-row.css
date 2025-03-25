@@ -1,0 +1,10 @@
+@import url(./__theme/table-row_theme-white.css);
+
+.table-row {
+    /*border: 1px green dashed;*/
+    display: flex;
+    
+    align-content: flex-start;
+    justify-content: space-between;
+  
+  }

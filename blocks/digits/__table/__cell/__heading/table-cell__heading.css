@@ -1,0 +1,7 @@
+.table-cell__heading {
+    /*border: 1px blue solid;*/
+    margin: 0 !important;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+  }

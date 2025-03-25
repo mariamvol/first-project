@@ -1,0 +1,9 @@
+@import url(./__pic/container__book-container-pic.css);
+@import url(./__link/buy-link.css);
+
+.container__book-container {
+    /*border: 1px blue solid;*/
+    height: 608px;
+    overflow-y: hidden;
+    
+}

@@ -1,0 +1,8 @@
+.container__quote-author-subline {
+    /*border: 1px blue solid;*/
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+
+    margin: 0 0 68px 0;
+}

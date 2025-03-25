@@ -1,0 +1,12 @@
+@import url(./two-columns/two-columns.css);
+
+.description {
+    /*border: 10px yellow solid;*/
+    width: auto;
+    height: 100%;
+    flex-flow: row;
+    position: relative;
+    padding-top: 100px;
+    background-color: white;
+    z-index: 1;
+  }

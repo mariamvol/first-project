@@ -1,0 +1,15 @@
+@import url(./__author/container__author.css);
+@import url(./__book-container/container__book-container.css);
+@import url(./__quote-author-subline/container__quote-author-subline.css);
+@import url(./__quote-author/container__quote-author.css);
+@import url(./__quote/container__quote.css);
+@import url(./__title/container__title.css);
+
+.container {
+    /*border: 2px green solid;*/
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+}
