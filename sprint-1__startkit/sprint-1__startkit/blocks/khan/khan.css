@@ -1,0 +1,11 @@
+@import url(./container/container.css);
+
+.khan {
+    background-color: #fff;
+    /*border: 3px red solid;*/
+    display: flex;
+    padding: 105px 0 0 0;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}

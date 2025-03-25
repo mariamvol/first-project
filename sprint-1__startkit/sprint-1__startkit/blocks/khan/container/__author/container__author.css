@@ -1,0 +1,9 @@
+.container__author {
+    /*border: 1px blue solid;*/
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+}
