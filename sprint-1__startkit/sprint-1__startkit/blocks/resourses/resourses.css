@@ -1,0 +1,9 @@
+@import url(./caption/caption.css);
+@import url(./__logo-zone/resourses__logo-zone.css);
+
+.resourses {
+    /*border: 2px red solid;*/
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}

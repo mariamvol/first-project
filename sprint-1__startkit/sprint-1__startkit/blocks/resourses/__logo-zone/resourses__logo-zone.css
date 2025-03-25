@@ -1,0 +1,9 @@
+@import url(./__link/resources__logo-zone-link.css);
+
+.resourses__logo-zone {
+    /*border: 1px blue solid;*/
+    margin: 80px auto 217px auto;
+    max-width: 1100px;
+    display: flex;
+    text-align: center;
+}
